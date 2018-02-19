@@ -1,0 +1,66 @@
+html{
+    background-color: #fd4935;
+    overflow-y: scroll;
+    margin: 0;
+    overfow-x: hidden;
+}
+
+.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.menubar li{
+    float: left;
+    display: inline-block;
+}
+
+.menubar li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-family: Monteserrat, sans-serif;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.date-list li{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.sub-title h4 {
+    font-family: Monteserrat, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0 auto;
+    padding-top: 1cm;
+    color: #171629;
+}
+
+.main-title h2 {
+    font-family: Monteserrat, sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    color: #171629;
+}
+
+.homepage p {
+    font-family: arial, sans-serif;
+}
